@@ -14,4 +14,12 @@ public class UsuarioDTO {
     private String user;
     private String email;
 
+    public UsuarioDTO(){
+    }
+    public UsuarioDTO (Long id, String Nombre, String user, STring email){
+         this.id=id;
+        this.nombre=nombre;
+        this.user=user;
+        this.email=email;
+    }
 }
